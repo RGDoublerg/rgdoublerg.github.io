@@ -10721,4 +10721,18 @@ textarea.form-control-lg {
   }
 }
 
+/* Start: show default logo only */
+.logo img.logo-scrolled {
+  display: none;
+}
+
+/* When the header gets the class "background-header", swap images */
+.header-area.background-header .logo img.logo-default {
+  display: none;
+}
+
+.header-area.background-header .logo img.logo-scrolled {
+  display: inline-block;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
