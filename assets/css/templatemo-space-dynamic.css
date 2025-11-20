@@ -1468,6 +1468,7 @@ responsive
     position: relative;
     background-image: none;
     padding: 0px;
+    background: none;
   }
   .about-us .left-image {
     margin-right: 0px;
@@ -1479,8 +1480,8 @@ responsive
     text-align: center;
   }
   .about-us .services .item  {
-    background: rgb(218,37,29);
-    background: linear-gradient(105deg, rgba(218,37,29,1) 0%, rgba(151,36,31,1) 100%);
+    background: slategray;
+
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
@@ -1550,7 +1551,7 @@ responsive
 
 @media (max-width: 767px) {
   .about-us .left-image {
-    bottom: -280px;
+    bottom: -315px;
   }
   .our-blog .right-list {
     margin-left: 0px;
