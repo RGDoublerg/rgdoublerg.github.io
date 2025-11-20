@@ -10742,17 +10742,8 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-/* Normalize mobile padding */
-@media (max-width: 991px) {
-  .header-area .main-nav ul.nav li a {
-    padding: 18px 0 !important;
-    text-align: center !important;
-  }
-
-  /* Remove logo offset on mobile */
-  .logo img {
-    margin-top: 0 !important;
-  }
+.header-area.background-header .nav .home-section {
+  margin-left: -70px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
